@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31410.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarteiraDigital", "CarteiraDigital\CarteiraDigital.csproj", "{A37508F5-2907-443A-947A-4CDB0965346B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example", "Example\Example.csproj", "{9AB8F2ED-B525-4602-ADC9-1FEC4E8EB51C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A37508F5-2907-443A-947A-4CDB0965346B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A37508F5-2907-443A-947A-4CDB0965346B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A37508F5-2907-443A-947A-4CDB0965346B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A37508F5-2907-443A-947A-4CDB0965346B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9AB8F2ED-B525-4602-ADC9-1FEC4E8EB51C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AB8F2ED-B525-4602-ADC9-1FEC4E8EB51C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AB8F2ED-B525-4602-ADC9-1FEC4E8EB51C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AB8F2ED-B525-4602-ADC9-1FEC4E8EB51C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6B830BE6-7F65-4ABB-B1A9-481CFF4E42FD}
+	EndGlobalSection
+EndGlobal
