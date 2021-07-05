@@ -49,8 +49,8 @@ namespace Example
 
             var cobranca = new Cobranca();
             cobranca.Id = _id;
-            cobranca.DevedorNome = "Consumidor Final";
-            cobranca.DevedorCpf = "72088500030";
+            //cobranca.DevedorNome = "Consumidor Final";
+            //cobranca.DevedorCpf = "72088500030";
             cobranca.SolicitacaoPagador = "IzzyWay Tecnologia";
             cobranca.Valor = Convert.ToDecimal(txtValor.Text);
 

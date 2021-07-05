@@ -44,12 +44,7 @@ namespace CarteiraDigital.Service
                     calendario = new calendario
                     {
                         expiracao = 3600
-                    },
-                    devedor = new devedor
-                    {
-                        cpf = cobranca.DevedorCpf,
-                        nome = cobranca.DevedorNome
-                    },
+                    },                    
                     valor = new valor
                     {
                         original = Util.GetValorFormatado(cobranca.Valor)
@@ -57,6 +52,15 @@ namespace CarteiraDigital.Service
                     chave = this.credenciais.chave,
                     solicitacaoPagador = cobranca.SolicitacaoPagador
                 };
+
+                if(!string.IsNullOrEmpty(cobranca.DevedorCpf) && !string.IsNullOrEmpty(cobranca.DevedorNome))
+                {
+                    pagamento.devedor = new devedor
+                    {
+                        cpf = cobranca.DevedorCpf,
+                        nome = cobranca.DevedorNome
+                    };
+                }
 
                 var resultCob = gerenciaNet.Cob(resultToken.Result.access_token, pagamento, cobranca.Id);
                 if (!resultCob.Success)
